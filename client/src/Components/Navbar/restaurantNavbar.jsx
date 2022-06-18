@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaUserAlt} from "react-icons/fa"
+import { Link } from "react-router-dom";
 import {HiLocationMarker} from "react-icons/hi"
 import {IoMdArrowDropdown,IoMdArrowDropup} from "react-icons/io"
 import {RiSearchLine} from "react-icons/ri"
@@ -9,10 +10,11 @@ const MobileNav = () => {
      return (
        <div className="flex w-full items-center justify-between lg:hidden">
            <AiOutlineArrowLeft/>
-         <div className="w-28">
+            <Link to={`/delivery`}>
+               <div className="w-28">
                    <img src="https://i.ibb.co/7G5YkWS/M-logo.png" alt="logo" className="w-full h-full" />     
               </div>
-
+            </Link>
               <div className="flex items-center gap-3">
               <button className="bg-cuby-400 text-white py-2 px-3 rounded-full">Use App</button> 
               <span className="border p-2 border-gray-300 text-cuby-400 rounded-full"><FaUserAlt/></span>       
@@ -27,9 +29,11 @@ const LargeNav = () => {
     <>
     <div className=" hidden lg:inline container px-40 mx-auto">
     <div className="hidden gap-4 w-full items-center  justify-around  lg:flex ">
+    <Link to={`/delivery`}>
     <div className="w-28">
     <img src="https://i.ibb.co/7G5YkWS/M-logo.png" alt="logo" className="w-full h-full" />     
     </div>
+    </Link>
 
      <div className="w-3/4 bg-white shadow-md  p-3 flex items-center gap-3 border border-gray-200 rounded">
        <div className="flex items-center gap-2 border-r-2 border-gray-300 pr-2">

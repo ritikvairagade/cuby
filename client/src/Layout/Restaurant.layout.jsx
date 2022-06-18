@@ -1,6 +1,5 @@
 import React from 'react'
 import {TiStarOutline} from "react-icons/ti";
-import { Link } from "react-router-dom";
 import {RiDirectionLine , RiShareForwardLine} from "react-icons/ri";
 import {BiBookmarkPlus} from "react-icons/bi";
 
