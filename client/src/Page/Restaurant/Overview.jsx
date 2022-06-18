@@ -91,7 +91,7 @@ const Overview = () => {
                         />
                    </div>
                    <div className="my-4 w-full md:hidden flex flex-col gap-4">
-                   <Mapview title="The Pizza Project" phno="+919175952615" mapLocation={[21.139499133646154, 79.05867991403582]} address="Shop 2, Plot 1, 251/2, Ground Floor, Swapnil Rajni Apartment, WHC Road, Near Chavhan HA, Dharampeth, Nagpur"/>
+                   <Mapview title="Domino's Pizza" phno="+919175952615" mapLocation={[19.974082263415152, 79.28621829410828]} address="Ground, Plot no. 17, Nagpur Rd, Civil Lines, Chandrapur, Maharashtra 442402"/>
                    </div>
                    <div className="my-4 flex flex-col gap-4">
                        <ReviewCard />
@@ -101,7 +101,7 @@ const Overview = () => {
                     
                 </div>
                 <aside style={{height: "fit-content"}} className="hidden md:flex md:w-4/12 sticky rounded-xl top-2 bg-white p-3 shadow-md flex flex-col gap-4">
-                    <Mapview title="The Pizza Project" phno="+919175952615" mapLocation={[21.139499133646154, 79.05867991403582]} address="Shop 2, Plot 1, 251/2, Ground Floor, Swapnil Rajni Apartment, WHC Road, Near Chavhan HA, Dharampeth, Nagpur"/>
+                    <Mapview title="Domino's Pizza" phno="+919175952615" mapLocation={[19.974082263415152, 79.28621829410828]} address="Ground, Plot no. 17, Nagpur Rd, Civil Lines, Chandrapur, Maharashtra 442402"/>
                 </aside>
             </div>
         </>

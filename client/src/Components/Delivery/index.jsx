@@ -14,11 +14,11 @@ const Delivery = () => {
         {
           _id: "123456",
           photos: [
-            "https://b.zmtcdn.com/data/pictures/chains/8/18443088/d26f90bcacb3caeb175479a90e1eddb2.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+            "https://b.zmtcdn.com/data/pictures/5/19096095/bedddb08e3eafa541fdec9db26613993_o2_featured_v2.jpg",
           ],
-          name: "Samosa Party",
-          cuisine: ["Street Food", "Beverages", "Tea"],
-          averageCost: 100,
+          name: "Domino's Pizza",
+          cuisine: ["Pizza", "Fast Food"],
+          averageCost: 150,
           isPro: true,
           isOff: 80,
           durationOfdelivery: 47,
@@ -33,7 +33,7 @@ const Delivery = () => {
             <DeliveryCarousal />
             {/* <Brand/> */}
             <h1 className="text-xl mt-4 mb-2 md:mt-8 md:text-3xl md:font-semibold">
-                Delivery Restaurants in Vijay Nagar
+                Delivery Restaurants in Nagpur Road
             </h1>
             <div className="flex justify-between flex-wrap ">
             {

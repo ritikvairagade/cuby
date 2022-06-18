@@ -1,5 +1,6 @@
 import React from 'react'
 import {TiStarOutline} from "react-icons/ti";
+import { Link } from "react-router-dom";
 import {RiDirectionLine , RiShareForwardLine} from "react-icons/ri";
 import {BiBookmarkPlus} from "react-icons/bi";
 
@@ -29,7 +30,7 @@ const RestaurantLayout = (props) => {
            
            ]} /> 
    
-         <RestaurantInfo name="The Pizza Project" restaurantRating="3.5" deliveryRating="3.2" cuisine="Pizza, Fast Food, Beverages" address="Dharampeth, Nagpur" />
+         <RestaurantInfo name="Domino's Pizza" restaurantRating="3.5" deliveryRating="3.2" cuisine="Pizza, Fast Food, Beverages" address="Nagpur Rd, Civil Lines, Chandrapur" />
       
       <div className="my-4 flex flex-wrap gap-3">
           <InfoButtons isActive >
