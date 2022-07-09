@@ -42,7 +42,7 @@ const Checkout = () => {
       name: "Cuby",
       description: "Pay for your food",
       image:
-        "https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png",
+        "https://i.ibb.co/7G5YkWS/M-logo.png",
 
       handler: () => {
         alert("Payment Done");
