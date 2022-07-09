@@ -20,9 +20,7 @@ const MobileNav = ({SignIn, SignUp}) => {
 
      return (
        <div className="flex w-full items-center justify-between lg:hidden">
-        <Link to={`/delivery`} className="w-full">
            <AiOutlineArrowLeft/> 
-           </Link>
            <Link to={`/delivery`} className="w-full">  
                <div className="w-28">
                    <img src="https://i.ibb.co/7G5YkWS/M-logo.png" alt="logo" className="w-full h-full" />     

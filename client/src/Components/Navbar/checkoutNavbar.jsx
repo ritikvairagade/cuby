@@ -16,6 +16,7 @@ const Navbar = () => {
           <Link to={`/delivery`} className="w-full"> 
             <AiOutlineArrowLeft />
           </Link>
+          <Link to={`/delivery`} className="w-full">
             <div className="w-28">
               <img
                 src="https://i.ibb.co/7G5YkWS/M-logo.png"
@@ -23,6 +24,7 @@ const Navbar = () => {
                 className="w-full h-full"
               />
             </div>
+            </Link>
             <div className="flex items-center gap-3">
               <div className="border p-2 border-gray-300 text-cuby-400 w-16 h-16 rounded-full">
                 <img
