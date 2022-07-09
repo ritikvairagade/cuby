@@ -22,11 +22,12 @@ const MobileNav = ({SignIn, SignUp}) => {
        <div className="flex w-full items-center justify-between lg:hidden">
         <Link to={`/delivery`} className="w-full">
            <AiOutlineArrowLeft/> 
-           </Link>  
+           </Link>
+           <Link to={`/delivery`} className="w-full">  
                <div className="w-28">
                    <img src="https://i.ibb.co/7G5YkWS/M-logo.png" alt="logo" className="w-full h-full" />     
               </div>
-
+            </Link>  
               <div className="flex items-center gap-3">
               <button className="bg-cuby-400 text-white py-2 px-3 rounded-full">Use App</button> 
               {reduxState?.user?.fullname ? (
